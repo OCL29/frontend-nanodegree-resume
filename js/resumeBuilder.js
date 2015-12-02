@@ -26,3 +26,17 @@ var bio = {
 		"programming", "photograph", "sleep"
 	]
 };
+
+
+var work = {};
+work.position = "develpoer";
+work.employer = "Nit";
+work.years = 3;
+
+var education = {};
+education["name"] = "NCU";
+education["years"] = "2010-2012";
+education["city"] = "tay";
+
+$("#main").append(work["position"]);
+$("#main").append(education.name);
